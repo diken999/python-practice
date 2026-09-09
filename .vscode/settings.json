@@ -2,7 +2,11 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 4,
   "editor.detectIndentation": false,
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+},
   "editor.suggestOnTriggerCharacters": false,
   "editor.inlineSuggest.enabled": false,
   "editor.parameterHints.enabled": false,
